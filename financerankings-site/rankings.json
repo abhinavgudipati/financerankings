@@ -1,0 +1,2322 @@
+[
+  {
+    "institution": "University of Pennsylvania",
+    "score": 49.35
+  },
+  {
+    "institution": "University of Chicago",
+    "score": 47.666666666666664
+  },
+  {
+    "institution": "Cornell University",
+    "score": 38.18333333333333
+  },
+  {
+    "institution": "New York University",
+    "score": 33.55833333333333
+  },
+  {
+    "institution": "University of Illinois Urbana-Champaign",
+    "score": 31.2
+  },
+  {
+    "institution": "University of California, Berkeley",
+    "score": 29.099999999999998
+  },
+  {
+    "institution": "Duke University",
+    "score": 27.509999999999998
+  },
+  {
+    "institution": "University of Southern California",
+    "score": 26.566666666666666
+  },
+  {
+    "institution": "University of Hong Kong",
+    "score": 25.733333333333334
+  },
+  {
+    "institution": "Swiss Finance Institute",
+    "score": 25.349999999999998
+  },
+  {
+    "institution": "London School of Economics and Political Science",
+    "score": 24.7
+  },
+  {
+    "institution": "The University of Texas at Austin",
+    "score": 23.666666666666668
+  },
+  {
+    "institution": "Copenhagen Business School",
+    "score": 23.28333333333333
+  },
+  {
+    "institution": "University of North Carolina at Chapel Hill",
+    "score": 22.616666666666667
+  },
+  {
+    "institution": "Washington University in St. Louis",
+    "score": 21.916666666666668
+  },
+  {
+    "institution": "Columbia University",
+    "score": 21.876666666666665
+  },
+  {
+    "institution": "Chinese University of Hong Kong",
+    "score": 21.733333333333334
+  },
+  {
+    "institution": "University of Toronto",
+    "score": 21.7
+  },
+  {
+    "institution": "Boston College",
+    "score": 21.65
+  },
+  {
+    "institution": "Indiana University Bloomington",
+    "score": 20.616666666666667
+  },
+  {
+    "institution": "Singapore Management University",
+    "score": 18.826190476190476
+  },
+  {
+    "institution": "Yale University",
+    "score": 18.65
+  },
+  {
+    "institution": "University of Colorado Boulder",
+    "score": 18.583333333333332
+  },
+  {
+    "institution": "Stanford University",
+    "score": 18.25
+  },
+  {
+    "institution": "Harvard University",
+    "score": 18.208333333333332
+  },
+  {
+    "institution": "Georgetown University",
+    "score": 17.686666666666667
+  },
+  {
+    "institution": "Erasmus University Rotterdam",
+    "score": 17.076666666666668
+  },
+  {
+    "institution": "University of Notre Dame",
+    "score": 16.95
+  },
+  {
+    "institution": "Northwestern University",
+    "score": 16.099999999999998
+  },
+  {
+    "institution": "Stockholm School of Economics",
+    "score": 16.035151515151515
+  },
+  {
+    "institution": "University of Utah",
+    "score": 16.0
+  },
+  {
+    "institution": "London Business School",
+    "score": 15.95
+  },
+  {
+    "institution": "The Ohio State University",
+    "score": 15.816666666666666
+  },
+  {
+    "institution": "Anderson University - South Carolina",
+    "score": 14.866666666666665
+  },
+  {
+    "institution": "UNSW Sydney",
+    "score": 14.45
+  },
+  {
+    "institution": "Tilburg University",
+    "score": 13.716666666666667
+  },
+  {
+    "institution": "Massachusetts Institute of Technology",
+    "score": 13.7
+  },
+  {
+    "institution": "University of Maryland, College Park",
+    "score": 13.583333333333334
+  },
+  {
+    "institution": "Johns Hopkins University",
+    "score": 13.583333333333334
+  },
+  {
+    "institution": "University of Washington",
+    "score": 13.166666666666666
+  },
+  {
+    "institution": "University of Illinois Chicago",
+    "score": 12.533333333333333
+  },
+  {
+    "institution": "Hong Kong University of Science and Technology",
+    "score": 12.533333333333333
+  },
+  {
+    "institution": "American Finance Association",
+    "score": 12.333333333333332
+  },
+  {
+    "institution": "Southern Methodist University",
+    "score": 12.316666666666666
+  },
+  {
+    "institution": "Arizona State University",
+    "score": 12.166666666666666
+  },
+  {
+    "institution": "City, University of London",
+    "score": 11.95
+  },
+  {
+    "institution": "Emory University",
+    "score": 11.876666666666667
+  },
+  {
+    "institution": "University of Wisconsin\u2013Madison",
+    "score": 11.75
+  },
+  {
+    "institution": "Peking University",
+    "score": 11.75
+  },
+  {
+    "institution": "INSEAD",
+    "score": 11.75
+  },
+  {
+    "institution": "Pennsylvania State University",
+    "score": 11.583333333333332
+  },
+  {
+    "institution": "Bocconi University",
+    "score": 11.5
+  },
+  {
+    "institution": "Tsinghua University",
+    "score": 11.16904761904762
+  },
+  {
+    "institution": "Rice University",
+    "score": 10.75
+  },
+  {
+    "institution": "University of Oxford",
+    "score": 10.416666666666666
+  },
+  {
+    "institution": "National University of Singapore",
+    "score": 10.226190476190476
+  },
+  {
+    "institution": "Imperial College London",
+    "score": 10.116666666666667
+  },
+  {
+    "institution": "HEC Paris",
+    "score": 9.934242424242424
+  },
+  {
+    "institution": "Princeton University",
+    "score": 9.926666666666666
+  },
+  {
+    "institution": "Frankfurt School of Finance & Management",
+    "score": 9.876666666666667
+  },
+  {
+    "institution": "BI Norwegian Business School",
+    "score": 9.843333333333334
+  },
+  {
+    "institution": "Boston University",
+    "score": 9.816666666666666
+  },
+  {
+    "institution": "University of Michigan\u2013Ann Arbor",
+    "score": 9.666666666666666
+  },
+  {
+    "institution": "University of California, Los Angeles",
+    "score": 9.583333333333334
+  },
+  {
+    "institution": "University of Arizona",
+    "score": 9.583333333333332
+  },
+  {
+    "institution": "University of Florida",
+    "score": 9.533333333333333
+  },
+  {
+    "institution": "Tulane University",
+    "score": 9.45
+  },
+  {
+    "institution": "Hong Kong Polytechnic University",
+    "score": 9.433333333333334
+  },
+  {
+    "institution": "University of Minnesota",
+    "score": 9.25
+  },
+  {
+    "institution": "University of Delaware",
+    "score": 8.983333333333333
+  },
+  {
+    "institution": "University of British Columbia",
+    "score": 8.916666666666666
+  },
+  {
+    "institution": "Rutgers, The State University of New Jersey",
+    "score": 8.75
+  },
+  {
+    "institution": "Iowa State University",
+    "score": 8.75
+  },
+  {
+    "institution": "University of Virginia",
+    "score": 8.7
+  },
+  {
+    "institution": "Nanyang Technological University",
+    "score": 8.633333333333333
+  },
+  {
+    "institution": "University of Warwick",
+    "score": 8.483333333333333
+  },
+  {
+    "institution": "University of California, Irvine",
+    "score": 8.45
+  },
+  {
+    "institution": "Carnegie Mellon University",
+    "score": 8.366666666666667
+  },
+  {
+    "institution": "Georgia Institute of Technology",
+    "score": 8.333333333333334
+  },
+  {
+    "institution": "Georgia State University",
+    "score": 8.283333333333333
+  },
+  {
+    "institution": "University of Miami",
+    "score": 8.25
+  },
+  {
+    "institution": "Northeastern University",
+    "score": 8.2
+  },
+  {
+    "institution": "University of Zurich",
+    "score": 7.75
+  },
+  {
+    "institution": "McGill University",
+    "score": 7.75
+  },
+  {
+    "institution": "Goethe University Frankfurt",
+    "score": 7.543333333333333
+  },
+  {
+    "institution": "City University of Hong Kong",
+    "score": 7.366666666666666
+  },
+  {
+    "institution": "University of Connecticut",
+    "score": 7.35
+  },
+  {
+    "institution": "Brigham Young University",
+    "score": 7.283333333333333
+  },
+  {
+    "institution": "University of Houston",
+    "score": 7.166666666666666
+  },
+  {
+    "institution": "Indiana University",
+    "score": 7.083333333333333
+  },
+  {
+    "institution": "Fisher College",
+    "score": 7.083333333333333
+  },
+  {
+    "institution": "University of Oregon",
+    "score": 7.0
+  },
+  {
+    "institution": "Dartmouth College",
+    "score": 7.0
+  },
+  {
+    "institution": "University of California, San Diego",
+    "score": 6.783333333333333
+  },
+  {
+    "institution": "University of Rochester",
+    "score": 6.666666666666667
+  },
+  {
+    "institution": "Purdue University West Lafayette",
+    "score": 6.583333333333333
+  },
+  {
+    "institution": "Chinese University of Hong Kong, Shenzhen",
+    "score": 6.366666666666666
+  },
+  {
+    "institution": "Toulouse School of Economics",
+    "score": 6.216666666666667
+  },
+  {
+    "institution": "Baruch College",
+    "score": 6.066666666666666
+  },
+  {
+    "institution": "University of Georgia",
+    "score": 6.033333333333333
+  },
+  {
+    "institution": "University of Kentucky",
+    "score": 6.0
+  },
+  {
+    "institution": "Vrije Universiteit Amsterdam",
+    "score": 5.851818181818182
+  },
+  {
+    "institution": "California Institute of Technology",
+    "score": 5.733333333333333
+  },
+  {
+    "institution": "Renmin University of China",
+    "score": 5.666666666666666
+  },
+  {
+    "institution": "University of Pittsburgh",
+    "score": 5.583333333333333
+  },
+  {
+    "institution": "The University of Texas at Dallas",
+    "score": 5.583333333333333
+  },
+  {
+    "institution": "Michigan State University",
+    "score": 5.416666666666667
+  },
+  {
+    "institution": "University of Melbourne",
+    "score": 5.416666666666666
+  },
+  {
+    "institution": "Vanderbilt University",
+    "score": 5.3999999999999995
+  },
+  {
+    "institution": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+    "score": 5.166666666666667
+  },
+  {
+    "institution": "Monash University",
+    "score": 5.166666666666666
+  },
+  {
+    "institution": "Loughborough University",
+    "score": 5.116666666666666
+  },
+  {
+    "institution": "HEC Montr\u00e9al",
+    "score": 5.0
+  },
+  {
+    "institution": "University of Mannheim",
+    "score": 4.916666666666666
+  },
+  {
+    "institution": "George Washington University",
+    "score": 4.916666666666666
+  },
+  {
+    "institution": "University of South Carolina",
+    "score": 4.75
+  },
+  {
+    "institution": "University of Geneva",
+    "score": 4.666666666666666
+  },
+  {
+    "institution": "Universidade Nova de Lisboa",
+    "score": 4.416666666666667
+  },
+  {
+    "institution": "University of Luxembourg",
+    "score": 4.416666666666666
+  },
+  {
+    "institution": "University of Amsterdam",
+    "score": 4.416666666666666
+  },
+  {
+    "institution": "Texas A&M University",
+    "score": 4.333333333333333
+  },
+  {
+    "institution": "Stockholm University",
+    "score": 4.333333333333333
+  },
+  {
+    "institution": "Marymount University",
+    "score": 4.333333333333333
+  },
+  {
+    "institution": "Case Western Reserve University",
+    "score": 4.283333333333333
+  },
+  {
+    "institution": "Ross School",
+    "score": 4.28
+  },
+  {
+    "institution": "Aalto University",
+    "score": 4.26
+  },
+  {
+    "institution": "DePaul University",
+    "score": 4.2
+  },
+  {
+    "institution": "Universit\u00e0 della Svizzera italiana",
+    "score": 4.166666666666667
+  },
+  {
+    "institution": "University of Alberta",
+    "score": 4.166666666666667
+  },
+  {
+    "institution": "Shanghai University of Finance and Economics",
+    "score": 4.142857142857142
+  },
+  {
+    "institution": "American University",
+    "score": 4.083333333333333
+  },
+  {
+    "institution": "University of Vienna",
+    "score": 4.0
+  },
+  {
+    "institution": "Drexel University",
+    "score": 3.9166666666666665
+  },
+  {
+    "institution": "Tel Aviv University",
+    "score": 3.75
+  },
+  {
+    "institution": "University of Massachusetts Amherst",
+    "score": 3.7
+  },
+  {
+    "institution": "University of Copenhagen",
+    "score": 3.6666666666666665
+  },
+  {
+    "institution": "Western University",
+    "score": 3.5833333333333335
+  },
+  {
+    "institution": "Barcelona School of Economics",
+    "score": 3.51
+  },
+  {
+    "institution": "Virginia Tech",
+    "score": 3.5
+  },
+  {
+    "institution": "Indian School of Business",
+    "score": 3.5
+  },
+  {
+    "institution": "University of St. Gallen",
+    "score": 3.4
+  },
+  {
+    "institution": "Lehigh University",
+    "score": 3.3666666666666667
+  },
+  {
+    "institution": "Fudan University",
+    "score": 3.3666666666666667
+  },
+  {
+    "institution": "University of Oklahoma",
+    "score": 3.333333333333333
+  },
+  {
+    "institution": "Centro de Estudios Monetarios y Financieros",
+    "score": 3.333333333333333
+  },
+  {
+    "institution": "University at Buffalo, State University of New York",
+    "score": 3.25
+  },
+  {
+    "institution": "London School of Business and Finance",
+    "score": 3.25
+  },
+  {
+    "institution": "China Europe International Business School",
+    "score": 3.25
+  },
+  {
+    "institution": "Southwestern University of Finance and Economics",
+    "score": 3.1166666666666667
+  },
+  {
+    "institution": "Norwegian School of Economics",
+    "score": 3.083333333333333
+  },
+  {
+    "institution": "Korea Advanced Institute of Science and Technology",
+    "score": 3.083333333333333
+  },
+  {
+    "institution": "University of Nebraska\u2013Lincoln",
+    "score": 3.033333333333333
+  },
+  {
+    "institution": "University of Iowa",
+    "score": 3.033333333333333
+  },
+  {
+    "institution": "Queen Mary University of London",
+    "score": 3.0
+  },
+  {
+    "institution": "Hong Kong Baptist University",
+    "score": 3.0
+  },
+  {
+    "institution": "Fordham University",
+    "score": 3.0
+  },
+  {
+    "institution": "Christ University",
+    "score": 3.0
+  },
+  {
+    "institution": "University of California, Davis",
+    "score": 2.9166666666666665
+  },
+  {
+    "institution": "Shanghai Jiao Tong University",
+    "score": 2.8666666666666667
+  },
+  {
+    "institution": "Santa Clara University",
+    "score": 2.8333333333333335
+  },
+  {
+    "institution": "SKEMA Business School",
+    "score": 2.8333333333333335
+  },
+  {
+    "institution": "Collegio Carlo Alberto",
+    "score": 2.8333333333333335
+  },
+  {
+    "institution": "California University of Pennsylvania",
+    "score": 2.8333333333333335
+  },
+  {
+    "institution": "University of Sydney",
+    "score": 2.833333333333333
+  },
+  {
+    "institution": "Temple University",
+    "score": 2.833333333333333
+  },
+  {
+    "institution": "University of Cyprus",
+    "score": 2.783333333333333
+  },
+  {
+    "institution": "University of Cambridge",
+    "score": 2.783333333333333
+  },
+  {
+    "institution": "Queen's University",
+    "score": 2.783333333333333
+  },
+  {
+    "institution": "Vienna University of Economics and Business",
+    "score": 2.75
+  },
+  {
+    "institution": "University of North Carolina at Greensboro",
+    "score": 2.75
+  },
+  {
+    "institution": "Stockholm School of Economics in Riga",
+    "score": 2.75
+  },
+  {
+    "institution": "Yonsei University",
+    "score": 2.6666666666666665
+  },
+  {
+    "institution": "Wesleyan University Philippines",
+    "score": 2.6666666666666665
+  },
+  {
+    "institution": "Southern California University for Professional Studies",
+    "score": 2.6666666666666665
+  },
+  {
+    "institution": "Villanova University",
+    "score": 2.5833333333333335
+  },
+  {
+    "institution": "Aarhus University",
+    "score": 2.5833333333333335
+  },
+  {
+    "institution": "University of Bonn",
+    "score": 2.583333333333333
+  },
+  {
+    "institution": "Auburn University",
+    "score": 2.51
+  },
+  {
+    "institution": "University of Bern",
+    "score": 2.5
+  },
+  {
+    "institution": "Karlsruhe Institute of Technology",
+    "score": 2.5
+  },
+  {
+    "institution": "IE University",
+    "score": 2.5
+  },
+  {
+    "institution": "HEC Paris in Qatar",
+    "score": 2.5
+  },
+  {
+    "institution": "Calspan-University of Buffalo Research Center",
+    "score": 2.5
+  },
+  {
+    "institution": "University of Liechtenstein",
+    "score": 2.4166666666666665
+  },
+  {
+    "institution": "Lynn University",
+    "score": 2.4166666666666665
+  },
+  {
+    "institution": "Graduate School USA",
+    "score": 2.3333333333333335
+  },
+  {
+    "institution": "Ecole des Hautes Etudes Commerciales du Nord",
+    "score": 2.27
+  },
+  {
+    "institution": "University of Tennessee at Knoxville",
+    "score": 2.25
+  },
+  {
+    "institution": "University of Manchester",
+    "score": 2.25
+  },
+  {
+    "institution": "University of Cologne",
+    "score": 2.25
+  },
+  {
+    "institution": "University of Central Florida",
+    "score": 2.25
+  },
+  {
+    "institution": "Tohoku Institute of Technology",
+    "score": 2.25
+  },
+  {
+    "institution": "University of York",
+    "score": 2.1666666666666665
+  },
+  {
+    "institution": "University of Michigan",
+    "score": 2.1666666666666665
+  },
+  {
+    "institution": "University of International Business and Economics",
+    "score": 2.1666666666666665
+  },
+  {
+    "institution": "Instituto Tecnol\u00f3gico Aut\u00f3nomo de M\u00e9xico",
+    "score": 2.1666666666666665
+  },
+  {
+    "institution": "University of M\u00fcnster",
+    "score": 2.1166666666666667
+  },
+  {
+    "institution": "University of Wisconsin\u2013Milwaukee",
+    "score": 2.0833333333333335
+  },
+  {
+    "institution": "Syracuse University",
+    "score": 2.0833333333333335
+  },
+  {
+    "institution": "Babson College",
+    "score": 2.0833333333333335
+  },
+  {
+    "institution": "Miami University",
+    "score": 2.033333333333333
+  },
+  {
+    "institution": "Ko\u00e7 University",
+    "score": 2.033333333333333
+  },
+  {
+    "institution": "Cheung Kong Graduate School of Business",
+    "score": 2.033333333333333
+  },
+  {
+    "institution": "Veer Kunwar Singh University",
+    "score": 2.0
+  },
+  {
+    "institution": "University of Illinois System",
+    "score": 2.0
+  },
+  {
+    "institution": "Universidad Tecnol\u00f3gica Indoam\u00e9rica",
+    "score": 2.0
+  },
+  {
+    "institution": "Trinity College Dublin",
+    "score": 2.0
+  },
+  {
+    "institution": "Texas Christian University",
+    "score": 2.0
+  },
+  {
+    "institution": "Flagler College",
+    "score": 2.0
+  },
+  {
+    "institution": "University of Calgary",
+    "score": 1.9166666666666665
+  },
+  {
+    "institution": "Irvine University",
+    "score": 1.9166666666666665
+  },
+  {
+    "institution": "York University",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "University of Wisconsin System",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "Universidad Carlos III de Madrid",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "Technical University of Munich",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "Moscow State University of Technologies and Management named after K.G. Razumovskiy",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "IESE Business School",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "Frankfurt University of Applied Sciences",
+    "score": 1.8333333333333333
+  },
+  {
+    "institution": "Pontificia Universidad Cat\u00f3lica de Chile",
+    "score": 1.7833333333333332
+  },
+  {
+    "institution": "Hebrew University of Jerusalem",
+    "score": 1.75
+  },
+  {
+    "institution": "University of Missouri",
+    "score": 1.7
+  },
+  {
+    "institution": "University of Nottingham",
+    "score": 1.6833333333333333
+  },
+  {
+    "institution": "University of Memphis",
+    "score": 1.6666666666666667
+  },
+  {
+    "institution": "Wake Forest University",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "University of North Carolina at Charlotte",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "University of Naples Federico II",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "University of Maryland, Baltimore",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "University College London",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "Simon Fraser University",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "Queen's University Belfast",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "New School",
+    "score": 1.6666666666666665
+  },
+  {
+    "institution": "Universit\u00e9 Paris Dauphine-PSL",
+    "score": 1.5833333333333333
+  },
+  {
+    "institution": "Seoul National University",
+    "score": 1.5833333333333333
+  },
+  {
+    "institution": "Florida International University",
+    "score": 1.5833333333333333
+  },
+  {
+    "institution": "Durham University",
+    "score": 1.5433333333333332
+  },
+  {
+    "institution": "University of Kansas",
+    "score": 1.5333333333333332
+  },
+  {
+    "institution": "Williams College",
+    "score": 1.5
+  },
+  {
+    "institution": "Weber State University",
+    "score": 1.5
+  },
+  {
+    "institution": "Washington State University",
+    "score": 1.5
+  },
+  {
+    "institution": "WHU \u2013 Otto Beisheim School of Management",
+    "score": 1.5
+  },
+  {
+    "institution": "Universit\u00e9 Paris Sciences et Lettres",
+    "score": 1.5
+  },
+  {
+    "institution": "University of Minnesota System",
+    "score": 1.5
+  },
+  {
+    "institution": "University of Hawai\u02bbi at M\u0101noa",
+    "score": 1.5
+  },
+  {
+    "institution": "University of Duisburg-Essen",
+    "score": 1.5
+  },
+  {
+    "institution": "Texas Tech University",
+    "score": 1.5
+  },
+  {
+    "institution": "Marshall University",
+    "score": 1.5
+  },
+  {
+    "institution": "Finance and Economics Institute of Tajikistan",
+    "score": 1.5
+  },
+  {
+    "institution": "Chapman University",
+    "score": 1.5
+  },
+  {
+    "institution": "Capital University",
+    "score": 1.5
+  },
+  {
+    "institution": "Baylor University",
+    "score": 1.5
+  },
+  {
+    "institution": "University of California San Diego",
+    "score": 1.4166666666666665
+  },
+  {
+    "institution": "Sungkyunkwan University",
+    "score": 1.4166666666666665
+  },
+  {
+    "institution": "Palo Alto University",
+    "score": 1.4166666666666665
+  },
+  {
+    "institution": "Oklahoma State University",
+    "score": 1.4166666666666665
+  },
+  {
+    "institution": "Universidade de S\u00e3o Paulo",
+    "score": 1.3666666666666667
+  },
+  {
+    "institution": "KU Leuven",
+    "score": 1.3433333333333333
+  },
+  {
+    "institution": "University of the Arts",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of South Florida",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of Queensland",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of Konstanz",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of Cincinnati",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of California, Riverside",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "Pompeu Fabra University",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "Nanjing University",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "King's College London",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "Heinrich Heine University D\u00fcsseldorf",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "ETH Zurich",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "ESCP Business School",
+    "score": 1.3333333333333333
+  },
+  {
+    "institution": "University of Southern Denmark",
+    "score": 1.25
+  },
+  {
+    "institution": "Hoseo University",
+    "score": 1.25
+  },
+  {
+    "institution": "Hanken School of Economics",
+    "score": 1.25
+  },
+  {
+    "institution": "Florida State University",
+    "score": 1.25
+  },
+  {
+    "institution": "Clemson University",
+    "score": 1.25
+  },
+  {
+    "institution": "University of Alabama",
+    "score": 1.2333333333333334
+  },
+  {
+    "institution": "Shandong University of Political Science and Law",
+    "score": 1.2
+  },
+  {
+    "institution": "\u00c9cole Polytechnique",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Wharton County Junior College",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Vilnius University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "University of Technology Sydney",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "University of Essex",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Universidad Aut\u00f3noma de Madrid",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Reichman University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Ohio University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Mississippi State University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Lancaster University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Heidelberg University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Central University of Finance and Economics",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "CY Cergy Paris Universit\u00e9",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Brandeis University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Binghamton University",
+    "score": 1.1666666666666665
+  },
+  {
+    "institution": "Rotterdam University of Applied Sciences",
+    "score": 1.1166666666666667
+  },
+  {
+    "institution": "Wilfrid Laurier University",
+    "score": 1.0933333333333333
+  },
+  {
+    "institution": "Rensselaer Polytechnic Institute",
+    "score": 1.0833333333333333
+  },
+  {
+    "institution": "Brandman University",
+    "score": 1.0833333333333333
+  },
+  {
+    "institution": "Universit\u00e4t Innsbruck",
+    "score": 1.0703030303030303
+  },
+  {
+    "institution": "Yeshiva University",
+    "score": 1.0
+  },
+  {
+    "institution": "Xing Wei College",
+    "score": 1.0
+  },
+  {
+    "institution": "Xiamen University",
+    "score": 1.0
+  },
+  {
+    "institution": "Wolfgang Pauli Institute",
+    "score": 1.0
+  },
+  {
+    "institution": "Utah State University",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Western Australia",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Piura",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Oslo",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Edinburgh",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Canterbury",
+    "score": 1.0
+  },
+  {
+    "institution": "University of California, Santa Cruz",
+    "score": 1.0
+  },
+  {
+    "institution": "University of California, Santa Barbara",
+    "score": 1.0
+  },
+  {
+    "institution": "University of Bristol",
+    "score": 1.0
+  },
+  {
+    "institution": "University School",
+    "score": 1.0
+  },
+  {
+    "institution": "Universidade Cat\u00f3lica Portuguesa",
+    "score": 1.0
+  },
+  {
+    "institution": "The University of Texas at San Antonio",
+    "score": 1.0
+  },
+  {
+    "institution": "Suffolk University",
+    "score": 1.0
+  },
+  {
+    "institution": "Shaheed Benazir Bhutto University",
+    "score": 1.0
+  },
+  {
+    "institution": "Sabanc\u0131 \u00dcniversitesi",
+    "score": 1.0
+  },
+  {
+    "institution": "Ono Academic College",
+    "score": 1.0
+  },
+  {
+    "institution": "Northern Illinois University",
+    "score": 1.0
+  },
+  {
+    "institution": "North Carolina State University",
+    "score": 1.0
+  },
+  {
+    "institution": "Kwansei Gakuin University",
+    "score": 1.0
+  },
+  {
+    "institution": "Institut d'Economie Scientifique Et de Gestion",
+    "score": 1.0
+  },
+  {
+    "institution": "Goldsmiths University of London",
+    "score": 1.0
+  },
+  {
+    "institution": "Drake University",
+    "score": 1.0
+  },
+  {
+    "institution": "Central University of Ecuador",
+    "score": 1.0
+  },
+  {
+    "institution": "Carroll College",
+    "score": 1.0
+  },
+  {
+    "institution": "Radboud University Nijmegen",
+    "score": 0.95
+  },
+  {
+    "institution": "University of Waterloo",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "University of California System",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "Knoxville College",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "George Mason University",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "Colorado State University",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "Adrian College",
+    "score": 0.9166666666666666
+  },
+  {
+    "institution": "California State University, East Bay",
+    "score": 0.8533333333333333
+  },
+  {
+    "institution": "\u00c9cole de management de Lyon",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "University of Sussex",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "University of Stuttgart",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "University of Liverpool",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "University of Gothenburg",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "University of Colorado System",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Stephens College",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "National Taiwan University",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Montpellier Business School",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Louisiana State University",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Libera Universit\u00e0 Internazionale degli Studi Sociali Guido Carli",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Korea University",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Hanyang University",
+    "score": 0.8333333333333333
+  },
+  {
+    "institution": "Bowling Green State University",
+    "score": 0.78
+  },
+  {
+    "institution": "University of New Orleans",
+    "score": 0.75
+  },
+  {
+    "institution": "University of Bergen",
+    "score": 0.75
+  },
+  {
+    "institution": "Deakin University",
+    "score": 0.75
+  },
+  {
+    "institution": "Escola de Economia de S\u00e3o Paulo",
+    "score": 0.7
+  },
+  {
+    "institution": "Wuhan University",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Universit\u00e9 Toulouse-I-Capitole",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Universit\u00e0 Cattolica del Sacro Cuore",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "University of St.Gallen",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "University of New Brunswick",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "University of Manitoba",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "University of Lausanne",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "University of Chile",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "San Francisco State University",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Rochester Institute of Technology",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Oregon State University",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "New York Law School",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Maastricht School of Management",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Ivy Tech Community College of Indiana",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "European University Institute",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Chung-Ang University",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "California State University, Chico",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "Athens University of Economics and Business",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "American University of Sharjah",
+    "score": 0.6666666666666666
+  },
+  {
+    "institution": "West Virginia University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "University of Nevada, Las Vegas",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "University of London",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "University College Dublin",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Thammasat University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Technical University of Darmstadt",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Qinghai University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Old Dominion University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "National Ilan University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "McMaster University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Loyola Marymount University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "KTH Royal Institute of Technology",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "FHNW University of Applied Sciences and Arts",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Australian National University",
+    "score": 0.5833333333333333
+  },
+  {
+    "institution": "Universitat Ramon Llull",
+    "score": 0.51
+  },
+  {
+    "institution": "\u00d6zye\u011fin University",
+    "score": 0.5
+  },
+  {
+    "institution": "Yuan Ze University",
+    "score": 0.5
+  },
+  {
+    "institution": "Woodlawn School",
+    "score": 0.5
+  },
+  {
+    "institution": "Vanguard University",
+    "score": 0.5
+  },
+  {
+    "institution": "Universit\u00e9 Paris-Panth\u00e9on-Assas",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Stavanger",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Siena",
+    "score": 0.5
+  },
+  {
+    "institution": "University of San Diego",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Salerno",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Oulu",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Mississippi",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Leeds",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Giessen",
+    "score": 0.5
+  },
+  {
+    "institution": "University of Denver",
+    "score": 0.5
+  },
+  {
+    "institution": "Universidad de Los Andes",
+    "score": 0.5
+  },
+  {
+    "institution": "Universidad de La Sabana",
+    "score": 0.5
+  },
+  {
+    "institution": "Universidad San Pablo CEU",
+    "score": 0.5
+  },
+  {
+    "institution": "Ulsan National Institute of Science and Technology",
+    "score": 0.5
+  },
+  {
+    "institution": "Tamil University",
+    "score": 0.5
+  },
+  {
+    "institution": "TU Wien",
+    "score": 0.5
+  },
+  {
+    "institution": "Parthenope University of Naples",
+    "score": 0.5
+  },
+  {
+    "institution": "New York University Shanghai",
+    "score": 0.5
+  },
+  {
+    "institution": "Nankai University",
+    "score": 0.5
+  },
+  {
+    "institution": "Lauder Business School",
+    "score": 0.5
+  },
+  {
+    "institution": "Kennesaw State University",
+    "score": 0.5
+  },
+  {
+    "institution": "Jo\u017eef Stefan International Postgraduate School",
+    "score": 0.5
+  },
+  {
+    "institution": "Hochschule Bremen",
+    "score": 0.5
+  },
+  {
+    "institution": "German Graduate School of Management and Law",
+    "score": 0.5
+  },
+  {
+    "institution": "EBS University of Business and Law",
+    "score": 0.5
+  },
+  {
+    "institution": "Davidson College",
+    "score": 0.5
+  },
+  {
+    "institution": "Concordia University",
+    "score": 0.5
+  },
+  {
+    "institution": "City University of New York",
+    "score": 0.5
+  },
+  {
+    "institution": "California State University Los Angeles",
+    "score": 0.5
+  },
+  {
+    "institution": "CUNEF Universidad",
+    "score": 0.5
+  },
+  {
+    "institution": "Beijing Institute of Technology",
+    "score": 0.5
+  },
+  {
+    "institution": "Babe\u0219-Bolyai University",
+    "score": 0.5
+  },
+  {
+    "institution": "Aston University",
+    "score": 0.5
+  },
+  {
+    "institution": "Ajou University",
+    "score": 0.5
+  },
+  {
+    "institution": "Bar-Ilan University",
+    "score": 0.36333333333333334
+  },
+  {
+    "institution": "Institut National de Statistique et d'Economie Appliqu\u00e9e",
+    "score": 0.3433333333333333
+  },
+  {
+    "institution": "Zhejiang University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Western Washington University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Wellesley College",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Wayne State University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universit\u00e9 de Lille",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universit\u00e9 Libre de Bruxelles",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Victoria",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Verona",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Stirling",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of St Andrews",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Saskatchewan",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Richmond",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Regina",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Portsmouth",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Pavol Jozef \u0160af\u00e1rik",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of New Mexico",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Mendoza",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Massachusetts Lowell",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Lisbon",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Glasgow",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Fribourg",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of California, Merced",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Brighton",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "University of Adelaide",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universitat Aut\u00f2noma de Barcelona",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universidad de Deusto",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Universidad Torcuato Di Tella",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "UiT The Arctic University of Norway",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Toronto Metropolitan University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "The University of Tokyo",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "The University of Texas at El Paso",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "The University of Melbourne",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "The University of Adelaide",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Temple College",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Tama University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "TBS Education",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Stony Brook University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Sogang University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "ShanghaiTech University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Shanghai Lixin University of Accounting and Finance",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Shandong University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "San Diego State University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Saint Louis University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "RMIT University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Queens College, CUNY",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Polytechnic University of Turin",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Paderborn University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Otto-von-Guericke University Magdeburg",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Osaka University of Economics",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Oakland University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "New Economic School",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "National Taichung University of Science and Technology",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "National Cheng Kung University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Missouri University of Science and Technology",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Marshall B. Ketchum University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Macquarie University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Lund University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Lingnan University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Lehman College",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "King University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Kiel University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Kent State University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "John Carroll University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "James Madison University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Hunan University of Finance and Economics",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Hitotsubashi University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Harbin Institute of Technology",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "HES-SO University of Applied Sciences and Arts Western Switzerland",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Guangxi University of Finance and Economics",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Guangdong University Of Finances and Economics",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Funda\u00e7\u00e3o Getulio Vargas",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Florida College",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "First Technical University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "European School of Management and Technology",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Duquesne University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Claremont McKenna College",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "China Three Gorges University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Central European University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "California State University, Fullerton",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "California Lutheran University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Bilkent University",
+    "score": 0.3333333333333333
+  },
+  {
+    "institution": "Wroclaw University of Economics and Business",
+    "score": 0.25
+  },
+  {
+    "institution": "William Carey University",
+    "score": 0.25
+  },
+  {
+    "institution": "Weatherford College",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Wyoming",
+    "score": 0.25
+  },
+  {
+    "institution": "University of T\u00fcbingen",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Scranton",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Rhode Island",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Milan",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Massachusetts Boston",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Lethbridge",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Koblenz and Landau",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Hohenheim",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Groningen",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Dayton",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Da Nang",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Chinese Academy of Sciences",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Bologna",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Auckland",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Arkansas at Fayetteville",
+    "score": 0.25
+  },
+  {
+    "institution": "University of Alabama at Birmingham",
+    "score": 0.25
+  },
+  {
+    "institution": "University College Cork",
+    "score": 0.25
+  },
+  {
+    "institution": "Universidad de Am\u00e9rica",
+    "score": 0.25
+  },
+  {
+    "institution": "UCLouvain",
+    "score": 0.25
+  },
+  {
+    "institution": "Tokyo Institute of Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Texas State University",
+    "score": 0.25
+  },
+  {
+    "institution": "T A Pai Management Institute",
+    "score": 0.25
+  },
+  {
+    "institution": "Sun Yat-sen University",
+    "score": 0.25
+  },
+  {
+    "institution": "Stevens Institute of Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Southern University of Science and Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Seton Hall University",
+    "score": 0.25
+  },
+  {
+    "institution": "New Jersey Institute of Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Naval Postgraduate School",
+    "score": 0.25
+  },
+  {
+    "institution": "National Taipei University of Business",
+    "score": 0.25
+  },
+  {
+    "institution": "National Taipei University",
+    "score": 0.25
+  },
+  {
+    "institution": "National Chengchi University",
+    "score": 0.25
+  },
+  {
+    "institution": "National Central University",
+    "score": 0.25
+  },
+  {
+    "institution": "Montana State University",
+    "score": 0.25
+  },
+  {
+    "institution": "Max Stern Academic College of Emek Yezreel",
+    "score": 0.25
+  },
+  {
+    "institution": "Maastricht University",
+    "score": 0.25
+  },
+  {
+    "institution": "Lake Forest College",
+    "score": 0.25
+  },
+  {
+    "institution": "Kyoto Sangyo University",
+    "score": 0.25
+  },
+  {
+    "institution": "Kansas State University",
+    "score": 0.25
+  },
+  {
+    "institution": "John Brown University",
+    "score": 0.25
+  },
+  {
+    "institution": "Indian Institute of Management Bangalore",
+    "score": 0.25
+  },
+  {
+    "institution": "Humboldt-Universit\u00e4t zu Berlin",
+    "score": 0.25
+  },
+  {
+    "institution": "Huazhong University of Science and Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Huanggang Normal University",
+    "score": 0.25
+  },
+  {
+    "institution": "Griffith University",
+    "score": 0.25
+  },
+  {
+    "institution": "Franklin W. Olin College of Engineering",
+    "score": 0.25
+  },
+  {
+    "institution": "Florida Atlantic University",
+    "score": 0.25
+  },
+  {
+    "institution": "Fairfield University",
+    "score": 0.25
+  },
+  {
+    "institution": "Des Moines University",
+    "score": 0.25
+  },
+  {
+    "institution": "Delft University of Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Cyprus University of Technology",
+    "score": 0.25
+  },
+  {
+    "institution": "Columbia College - South Carolina",
+    "score": 0.25
+  },
+  {
+    "institution": "Cleveland State University",
+    "score": 0.25
+  },
+  {
+    "institution": "Centro Universit\u00e1rio da Funda\u00e7\u00e3o Educacional Guaxup\u00e9",
+    "score": 0.25
+  },
+  {
+    "institution": "Cardiff University",
+    "score": 0.25
+  },
+  {
+    "institution": "Ca' Foscari University of Venice",
+    "score": 0.25
+  },
+  {
+    "institution": "Brock University",
+    "score": 0.25
+  },
+  {
+    "institution": "William & Mary",
+    "score": 0.2
+  },
+  {
+    "institution": "University of Exeter",
+    "score": 0.2
+  },
+  {
+    "institution": "University of Bath",
+    "score": 0.2
+  },
+  {
+    "institution": "Universidad del Rosario",
+    "score": 0.2
+  },
+  {
+    "institution": "Texas A&M International University",
+    "score": 0.2
+  },
+  {
+    "institution": "Leibniz University Hannover",
+    "score": 0.2
+  },
+  {
+    "institution": "Cornerstone University",
+    "score": 0.2
+  },
+  {
+    "institution": "Barnard College",
+    "score": 0.2
+  },
+  {
+    "institution": "Universidade Federal do Rio de Janeiro",
+    "score": 0.16666666666666666
+  },
+  {
+    "institution": "Haute \u00c9cole Louvain en Hainaut",
+    "score": 0.16666666666666666
+  },
+  {
+    "institution": "Universit\u00e9 d'Orl\u00e9ans",
+    "score": 0.09090909090909091
+  },
+  {
+    "institution": "Universit\u00e9 Ibn-Tofail",
+    "score": 0.01
+  },
+  {
+    "institution": "University of Li\u00e8ge",
+    "score": 0.01
+  },
+  {
+    "institution": "E\u00f6tv\u00f6s Lor\u00e1nd University",
+    "score": 0.01
+  }
+]

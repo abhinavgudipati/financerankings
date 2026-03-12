@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Finance Rankings</title>
+
+<style>
+a {
+  color: #1a5fb4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  margin: 0;
+  background: #f3f6fa;
+}
+
+h1 {
+  margin: 0;
+  padding: 18px 30px;
+  font-weight: 600;
+}
+
+.top-controls {
+  padding: 10px 30px;
+  background: #dbe6f2;
+  border-bottom: 1px solid #c6d4e3;
+  font-size: 14px;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.sidebar label {
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+}
+
+td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f7f9fc;
+}
+
+.rank { width: 50px; }
+.faculty { width: 120px; text-align: center; }
+
+.arrow {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  font-weight: bold;
+  color: #2b6cb0;   /* blue */
+}
+
+.author-row {
+  background: #f5f8fc;
+  border-left: 3px solid #1a5fb4;
+}
+
+.author-row td {
+  padding: 14px 12px;
+}
+
+.paper-row {
+  font-size: 13px;
+  color: #333;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Finance Rankings</h1>
+
+<div class="top-controls">
+
+Year:
+<input type="number" id="startYear" value="2016">
+to
+<input type="number" id="endYear" value="2025">
+
+Top:
+<select id="topN">
+<option value="10">10</option>
+<option value="25" selected>25</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="9999">All</option>
+</select>
+
+Sort:
+<select id="sortMode">
+<option value="weight">By Weight</option>
+<option value="citations">By Citations</option>
+</select>
+
+Country:
+<select id="countryFilter">
+<option value="All">All</option>
+</select>
+
+Search:
+<input type="text" id="searchBox" placeholder="Institution or Author">
+
+<button onclick="render()">Apply</button>
+<button onclick="downloadCSV()">Download CSV</button>
+
+</div>
+
+<div class="layout">
+
+<div class="sidebar">
+<h3>Journals</h3>
+
+<label><input type="checkbox" value="Journal of Finance" checked> Journal of Finance</label>
+<label><input type="checkbox" value="Journal of Financial Economics" checked> Journal of Financial Economics</label>
+<label><input type="checkbox" value="Review of Financial Studies" checked> Review of Financial Studies</label>
+
+</div>
+
+<div class="content">
+
+<table>
+<thead>
+<tr>
+<th class="rank">Rank</th>
+<th>Institution</th>
+<th class="faculty">Faculty</th>
+<th>Score</th>
+<th>Citations</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+
+</div>
+</div>
+
+<script>
+
+fetch("rankings_detailed.json")
+  .then(res => res.json())
+  .then(json => {
+    rawData = json;
+    buildCountryFilter();   // ← this is critical
+    render();
+  });
+
+let rawData = {};
+let currentInstitutions = [];
+
+function isoToCountryName(code) {
+
+  const map = {
+    US: "United States",
+    HK: "Hong Kong",
+    CH: "Switzerland",
+    GB: "United Kingdom",
+    CA: "Canada",
+    CN: "China",
+    DE: "Germany",
+    FR: "France",
+    IN: "India",
+    AU: "Australia",
+    AT: "Austria",
+    BE: "Belgium",
+    BR: "Brazil",
+    CL: "Chile",
+    CO: "Colombia",
+    CY: "Cyprus",
+    DK: "Denmark",
+    EC: "Ecuador",
+    ES: "Spain",
+    FI: "Finland",
+    GR: "Greece",
+    HU: "Hungary",
+    AE: "United Arab Emirates",
+    AR: "Argentina",
+    IE: "Ireland",
+    IL: "Israel",
+    IT: "Italy",
+    JP: "Japan",
+    KR: "South Korea",
+    LU: "Luxembourg",
+    MX: "Mexico",
+    NL: "Netherlands",
+    NO: "Norway",
+    NZ: "New Zealand",
+    PE: "Peru",
+    PH: "Philippines",
+    PK: "Pakistan",
+    PL: "Poland",
+    PT: "Portugal",
+    QA: "Qatar",
+    RO: "Romania",
+    RU: "Russia",
+    SE: "Sweden",
+    SG: "Singapore",
+    SI: "Slovenia",
+    SK: "Slovakia",
+    TH: "Thailand",
+    TR: "Turkey",
+    TW: "Taiwan",
+    VN: "Vietnam"
+  };
+
+  return map[code] || code;
+}
+
+function flagFromISO(code) {
+  if (!code) return "";
+  return code
+    .toUpperCase()
+    .replace(/./g, char =>
+      String.fromCodePoint(127397 + char.charCodeAt())
+    );
+}
+
+function getFlag(countryValue) {
+  const iso = normalizeToISO(countryValue);
+  return flagFromISO(iso);
+}
+
+function normalizeToISO(value) {
+
+  const reverseMap = {
+    "USA": "US",
+    "United States": "US",
+    "UK": "GB",
+    "United Kingdom": "GB",
+    "Switzerland": "CH",
+    "Hong Kong": "HK",
+    "Singapore": "SG"
+  };
+
+  if (value.length === 2) return value.toUpperCase();
+
+  return reverseMap[value] || value;
+}
+
+function buildCountryFilter() {
+
+  const select = document.getElementById("countryFilter");
+  select.innerHTML = '<option value="All">All</option>';
+
+  const countries = new Set();
+
+  Object.values(rawData).forEach(inst => {
+    if (inst.country) {
+      countries.add(normalizeToISO(inst.country));
+    }
+  });
+
+  [...countries]
+    .sort((a,b) =>
+      isoToCountryName(a).localeCompare(isoToCountryName(b))
+    )
+    .forEach(code => {
+
+      const option = document.createElement("option");
+      option.value = code;
+      option.textContent =
+        flagFromISO(code) + " " + isoToCountryName(code);
+
+      select.appendChild(option);
+    });
+}
+
+function render() {
+
+  const startYear = parseInt(document.getElementById("startYear").value);
+  const endYear = parseInt(document.getElementById("endYear").value);
+  const topN = parseInt(document.getElementById("topN").value);
+  const sortMode = document.getElementById("sortMode").value;
+  const countryFilter = document.getElementById("countryFilter").value;
+  const searchText = document.getElementById("searchBox").value.toLowerCase();
+
+  const checkedJournals = Array.from(
+    document.querySelectorAll(".sidebar input:checked")
+  ).map(cb => cb.value);
+
+  let institutions = [];
+
+  Object.entries(rawData).forEach(([instName, instData]) => {
+
+    if (countryFilter !== "All") {
+        const instISO = normalizeToISO(instData.country);
+        if (instISO !== countryFilter) return;
+    }
+
+    let instScore = 0;
+    let instCitations = 0;
+    let facultyCount = 0;
+    let authors = [];
+
+    Object.entries(instData.authors).forEach(([authorName, authorData]) => {
+
+      let authorScore = 0;
+      let authorCitations = 0;
+      let filteredPapers = [];
+
+      authorData.papers.forEach(p => {
+        if (
+          p.year >= startYear &&
+          p.year <= endYear &&
+          checkedJournals.includes(p.journal)
+        ) {
+          filteredPapers.push(p);
+          authorScore += p.credit;
+          authorCitations += p.citations || 0;
+        }
+      });
+
+      if (filteredPapers.length > 0) {
+        facultyCount++;
+        authors.push({
+          name: authorName,
+          total_score: authorScore,
+          total_citations: authorCitations,
+          papers: filteredPapers
+        });
+
+        instScore += authorScore;
+        instCitations += authorCitations;
+      }
+
+    });
+
+    if (authors.length > 0) {
+      institutions.push({
+        name: instName,
+        country: instData.country,
+        total_score: instScore,
+        total_citations: instCitations,
+        faculty_count: facultyCount,
+        authors: authors
+      });
+    }
+
+  });
+
+  if (searchText) {
+    institutions = institutions.filter(inst =>
+      inst.name.toLowerCase().includes(searchText) ||
+      inst.authors.some(a =>
+        a.name.toLowerCase().includes(searchText)
+      )
+    );
+  }
+
+  if (sortMode === "citations") {
+    institutions.sort((a,b) => b.total_citations - a.total_citations);
+  } else {
+    institutions.sort((a,b) => b.total_score - a.total_score);
+  }
+
+  institutions = institutions.slice(0, topN);
+  currentInstitutions = institutions;
+
+  renderTable(institutions);
+}
+
+function renderTable(institutions) {
+
+  const tbody = document.getElementById("tableBody");
+  tbody.innerHTML = "";
+
+  institutions.forEach((inst, index) => {
+
+    const row = document.createElement("tr");
+
+    row.innerHTML = `
+      <td>${index + 1}</td>
+      <td>
+        <span class="arrow">▶</span>
+        <span style="margin-right:6px">${getFlag(inst.country)}</span>
+        ${inst.name}
+      </td>
+      <td class="faculty">${inst.faculty_count}</td>
+      <td>${inst.total_score.toFixed(2)}</td>
+      <td>${inst.total_citations}</td>
+    `;
+
+    row.querySelector(".arrow").onclick = (e) => {
+      e.stopPropagation();
+      toggleAuthors(inst, row);
+    };
+
+    tbody.appendChild(row);
+  });
+}
+
+function toggleAuthors(inst, row) {
+
+  const isOpen = row.classList.contains("open");
+
+  document.querySelectorAll(".author-row").forEach(r => r.remove());
+  document.querySelectorAll(".arrow").forEach(a => a.textContent = "▶");
+  document.querySelectorAll("tr").forEach(r => r.classList.remove("open"));
+
+  if (isOpen) return;
+
+  row.classList.add("open");
+  row.querySelector(".arrow").textContent = "▼";
+
+  const details = document.createElement("tr");
+  details.className = "author-row";
+
+  const cell = document.createElement("td");
+  cell.colSpan = 5;
+
+  inst.authors
+    .sort((a,b) => b.total_score - a.total_score)
+    .forEach(author => {
+
+      const div = document.createElement("div");
+div.innerHTML = `
+  <span class="arrow">▶</span>
+  <strong>${author.name}</strong>
+  <span style="float:right; color:#555;">
+    ${author.total_score.toFixed(2)} | ${author.total_citations} citations
+  </span>
+`;      div.style.marginLeft = "20px";
+
+      div.onclick = (e) => {
+        e.stopPropagation();
+        togglePapers(author, div);
+      };
+
+      cell.appendChild(div);
+    });
+
+  details.appendChild(cell);
+  row.parentNode.insertBefore(details, row.nextSibling);
+}
+
+function togglePapers(author, element) {
+
+  const arrow = element.querySelector(".arrow");
+
+  if (element.nextSibling && element.nextSibling.className === "paper-row") {
+    element.nextSibling.remove();
+    arrow.textContent = "▶";
+    return;
+  }
+
+  arrow.textContent = "▼";
+
+  const div = document.createElement("div");
+  div.className = "paper-row";
+  div.style.marginLeft = "40px";
+
+  author.papers
+    .sort((a,b) => b.year - a.year)
+    .forEach(p => {
+
+      const titleHTML = p.doi
+        ? `<a href="${p.doi}" target="_blank">${p.title}</a>`
+        : p.title;
+
+      div.innerHTML += `
+  <div style="margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid #e3e8ef;">
+    <div style="font-size:12px; color:#666;">
+      ${p.year} · ${p.journal}
+      <span style="float:right;">
+        Credit: ${p.credit.toFixed(2)} | Citations: ${p.citations}
+      </span>
+    </div>
+    <div style="margin-top:4px;">
+      ${titleHTML}
+    </div>
+  </div>
+`;
+    });
+
+  element.after(div);
+}
+
+function downloadCSV() {
+
+  let csv = "Rank,Institution,Faculty,Score\n";
+
+  currentInstitutions.forEach((inst, i) => {
+    csv += `${i+1},"${inst.name}",${inst.faculty_count},${inst.total_score.toFixed(2)}\n`;
+  });
+
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "finance_rankings.csv";
+  a.click();
+}
+
+</script>
+
+</body>
+</html>
